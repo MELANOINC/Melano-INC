@@ -1,0 +1,1 @@
+"""MELANO INC core package"""
