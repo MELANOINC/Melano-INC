@@ -1,0 +1,21 @@
+{
+  "proxy_pool": [
+    {
+      "type": "residential",
+      "location": "US",
+      "active": true
+    },
+    {
+      "type": "datacenter",
+      "location": "EU",
+      "active": true
+    },
+    {
+      "type": "mobile",
+      "location": "CA",
+      "active": true
+    }
+  ],
+  "rotation_strategy": "intelligent",
+  "health_check_interval": 120
+}

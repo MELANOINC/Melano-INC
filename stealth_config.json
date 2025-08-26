@@ -1,0 +1,12 @@
+{
+  "stealth_generator": {
+    "operation_security": {
+      "max_detection_risk": 0.3,
+      "emergency_shutdown_threshold": 0.8
+    },
+    "lead_qualification": {
+      "minimum_score_threshold": 0.65,
+      "high_value_threshold": 0.85
+    }
+  }
+}

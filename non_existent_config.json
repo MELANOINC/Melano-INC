@@ -1,0 +1,21 @@
+{
+  "neural_protocol": {
+    "stealth_settings": {
+      "max_concurrent_sessions": 3,
+      "request_delay_range": [
+        2,
+        5
+      ]
+    },
+    "extraction_rules": {
+      "linkedin_profile": {
+        "selectors": {
+          "name": "h1.text-heading-xlarge",
+          "title": ".text-body-medium.break-words",
+          "company": ".inline-show-more-text--is-collapsed .visually-hidden",
+          "location": ".text-body-small.inline.t-black--light.break-words"
+        }
+      }
+    }
+  }
+}
